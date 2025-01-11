@@ -21,7 +21,7 @@ ingredients_list = st.multiselect(
     "Choose upto 5 ingredients:"
     ,my_dataframe
     ,default=None
-    ,max_selections > 5
+    ,max_selections = 5
  )
 
 if ingredients_list:
